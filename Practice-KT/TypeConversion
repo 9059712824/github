@@ -1,0 +1,31 @@
+let x=10
+console.log(x,typeof x)
+//convert number to string
+x="venky"
+console.log(x,typeof x)
+
+//Type conversion
+let y=9
+y=y+""
+console.log(y,typeof y)
+y=y-2
+console.log(y,typeof y)
+
+//
+x=!x
+console.log(x,typeof x)
+
+//Boolean
+console.log(Boolean(0))
+console.log(Boolean(89))
+console.log(Boolean(false))
+
+//Type Conversion
+
+let StringNumber="123"
+let IntegerNumber=Number(StringNumber)
+console.log(IntegerNumber,typeof IntegerNumber)
+
+StringNumber="12345 String"
+let IntegerNumber1=parseInt(StringNumber)
+console.log(IntegerNumber,typeof IntegerNumber1)
