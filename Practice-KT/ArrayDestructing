@@ -1,0 +1,20 @@
+let nums=[5,7,2,4]
+console.log(nums);
+
+/*let [a,b,c,d]=nums
+console.log(a); //5
+console.log(b); //7
+console.log(c); //2
+console.log(d); //4*/
+
+/*let a=5;
+let b=6;
+//Swappping two numbers
+[a,b]=[b,a]
+console.log(a,b);*/
+
+let word="My name is venkata Krishna".split(" ");
+console.log(word);
+for(let k of word){
+    console.log(k);
+}
