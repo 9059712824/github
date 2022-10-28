@@ -14,7 +14,7 @@ nums.filter(n => n%2===0)
 let res=nums.filter(n => n%2===0)  //to filter based on conditions
 .map(n=>n*2)                //to implement specific operations
 .reduce((a,b)=>a+b);        //add all elements
-console.log(rescal);
+console.log(res);
 
 /*nums.forEach(element => {
     console.log(element);

@@ -9,3 +9,6 @@ let laptop={
 }
 
 laptop.greet();
+console.log(laptop.cpu)
+console.log(laptop.ram);
+console.log(laptop.brand);

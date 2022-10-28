@@ -7,7 +7,7 @@ console.log(num2);
 //
 let username="Navin";
 console.log(username)
-if(username!=="Navin"){
+if(username!="Navin"){
     console.log("Equal");
 }
 else{
@@ -15,9 +15,9 @@ else{
 }
 let username1="Reddy";
 
-let username2=username+username1;
+let username2=username+" "+username1;
 console.log(username2);
-console.log(username+username1);
+console.log(username+" "+username1);
 
 //Boolean and NUll value
 console.log(null);

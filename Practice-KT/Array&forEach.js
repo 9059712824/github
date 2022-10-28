@@ -20,7 +20,7 @@ console.log(name1);
 
 //New Array
 let arr=new Array(5,7,9,4,8,6);
-arr.splice(2,3,1,2,5)
+arr.splice(2,5,1,2,5,8,7)
 console.log(arr);
 
 //For of with an Array
